@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nic's Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+
+<style>
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+aside {
+  width: 45%;
+  padding-left: 5px;
+  margin-left: 5px;
+  float: right;
+  font-style: italic;
+  background-color: dodgerblue;
+}
+
+
+.responsive {
+  width: 40%;
+  height: auto;
+  
+}
+
+
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Nicholas Walker</h1>
+</div>
+
+<ul>
+  <li><a href="https://codingtemple.com">Coding Temple</a></li>
+  <li><a href="https://www.w3schools.com/html/default.asp">Learn HTML</a></li>
+  <li><a href="https://www.w3schools.com/css/default.asp">Learn CSS</a></li>
+  <li><a href="https://www.boardgamegeek.com">My Home Away From Home:BGG</a></li>
+</ul>
+
+<aside>
+<h2> Top 5 Favorites</h2>
+<ol>
+<li>1. Board Games <br></li>
+<li>2. Back To The Future<br></li>
+<li>3. Popovers<br></li>
+<li>4. Making Other People Laugh<br></li>
+<li>5. Being Connected With Nature<br></li>
+</ol>
+</aside>
+
+<img src="https://preview.redd.it/37hv65w584h61.jpg?width=3024&format=pjpg&auto=webp&s=1741f9025ec16996c2f85a939e68d24f3d0c0774" alt="The Collection" class= "responsive">
+
+<div class="row">
+  <div class="column">
+    <h2>About Me</h2>
+    <p>Hello everyone! My story began down in upper Pasadena, in the sleepy town of Sierra Madre. 
+	My schooling up until college was a mixture of two parts charter school and one part independent study! I am a very musical person in that I love to sing and have had the blessing of performing in multiple productions since I was small!
+	I had experiences three different college campuses across Southern California by the time of my graduation in 2018. I would say that my third campus was the most fateful as that is where I met my future bride-to-be Kristin. 
+	We have plans, post-wedding to forsake sunny Santa Barbara for a place with actual seasons: <b>Colorado Springs</b> and are both excited for what the future will hold! </p>
+  </div>
+  
+  <div class="column">
+    <h2>My Coding Journey</h2>
+    <p>My early brushes with coding and software came from my cousin and uncle, who always had the latest news on the earliest mentions of the newest Apple products and games! From there, there was a long pause until this past year. I had been 
+	struggling with jumpstarting my current career of teaching never finding the right gateway to the right position. Then, over the past summer, after running into a old floormate from college and getting connected with some guys working at software start-ups at a men's group
+	at my church, all signs began pointing towards the world of software! Coding Temple stood out as being about people just as much as programming, so here I am! My future plans involve potentially creating software and resources for history curriculums as well as expanding 
+	the digital reach of table-top games to a wider audience.</p>
+  </div>
+</div>
+<!-- Content will go here -->
+<img src= "https://scontent-lax3-1.xx.fbcdn.net/v/t1.6435-9/149158624_1813078938868886_5590474990064027755_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=730e14&_nc_ohc=_bSfDGgdhSYAX_xIWj3&_nc_ht=scontent-lax3-1.xx&oh=42758ea74a67d0d6c1e57b8d37e7ae76&oe=609170F8" alt="Me and my Valentine" class= "responsive">
+<img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.18169-9/14732162_666342433542548_6967712676543299319_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=8gu3fOFPGtsAX_84_wS&_nc_ht=scontent-lax3-1.xx&oh=7703793b0f1742f8b23091104bd395c4&oe=60929633" alt="Santa Barbara Sunrise" class= "responsive">
+<h2>Which Prework Section Was The Hardest?</h2>
+
+<form action="/action_page.php">
+  <input type="radio" id="Python" name="option" value="Python">
+  <label for="male">Python</label><br>
+  <input type="radio" id="HTML/CSS" name="option" value="HTML/CSS">
+  <label for="female">HTML/CSS</label><br>
+  <input type="radio" id="other" name="option" value="other">
+  <label for="other">Other</label> <br>
+ <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
